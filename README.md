@@ -1,2 +1,1 @@
 # Parkinson's Disease Detection
-
