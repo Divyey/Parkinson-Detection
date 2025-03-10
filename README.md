@@ -5,35 +5,35 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 
 Matrix column entries (attributes):
 
-#name - ASCII subject name and recording number
-#MDVP:Fo(Hz) - Average vocal fundamental frequency
-#MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
-#MDVP:Flo(Hz) - Minimum vocal fundamental frequency
-#Five measures of variation in Frequency
-#MDVP:Jitter(%) - Percentage of cycle-to-cycle variability of the period duration
-#MDVP:Jitter(Abs) - Absolute value of cycle-to-cycle variability of the period duration
-#MDVP:RAP - Relative measure of the pitch disturbance
-#MDVP:PPQ - Pitch perturbation quotient
-#Jitter:DDP - Average absolute difference of differences between jitter cycles
-#Six measures of variation in amplitude
-#MDVP:Shimmer - Variations in the voice amplitdue
-#MDVP:Shimmer(dB) - Variations in the voice amplitdue in dB
-#Shimmer:APQ3 - Three point amplitude perturbation quotient measured against the average of the three amplitude
-#Shimmer:APQ5 - Five point amplitude perturbation quotient measured against the average of the three amplitude
-#MDVP:APQ - Amplitude perturbation quotient from MDVP
-#Shimmer:DDA - Average absolute difference between the amplitudes of consecutive periods
-#Two measures of ratio of noise to tonal components in the voice
-#NHR - Noise-to-harmonics Ratio and
-#HNR - Harmonics-to-noise Ratio
-#status - Health status of the subject (one) - Parkinson's, (zero) - healthy
-#Two nonlinear dynamical complexity measures
-#RPDE - Recurrence period density entropy
-#D2 - correlation dimension
-#DFA - Signal fractal scaling exponent
-#Three nonlinear measures of fundamental frequency variation
-#spread1 - discrete probability distribution of occurrence of relative semitone variations
-#spread2 - Three nonlinear measures of fundamental frequency variation
-#PPE - Entropy of the discrete probability distribution of occurrence of relative semitone variations
+name - ASCII subject name and recording number
+MDVP:Fo(Hz) - Average vocal fundamental frequency
+MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
+MDVP:Flo(Hz) - Minimum vocal fundamental frequency
+Five measures of variation in Frequency
+MDVP:Jitter(%) - Percentage of cycle-to-cycle variability of the period duration
+MDVP:Jitter(Abs) - Absolute value of cycle-to-cycle variability of the period duration
+MDVP:RAP - Relative measure of the pitch disturbance
+MDVP:PPQ - Pitch perturbation quotient
+Jitter:DDP - Average absolute difference of differences between jitter cycles
+Six measures of variation in amplitude
+MDVP:Shimmer - Variations in the voice amplitdue
+MDVP:Shimmer(dB) - Variations in the voice amplitdue in dB
+Shimmer:APQ3 - Three point amplitude perturbation quotient measured against the average of the three amplitude
+Shimmer:APQ5 - Five point amplitude perturbation quotient measured against the average of the three amplitude
+MDVP:APQ - Amplitude perturbation quotient from MDVP
+Shimmer:DDA - Average absolute difference between the amplitudes of consecutive periods
+Two measures of ratio of noise to tonal components in the voice
+NHR - Noise-to-harmonics Ratio and
+HNR - Harmonics-to-noise Ratio
+status - Health status of the subject (one) - Parkinson's, (zero) - healthy
+Two nonlinear dynamical complexity measures
+RPDE - Recurrence period density entropy
+D2 - correlation dimension
+DFA - Signal fractal scaling exponent
+Three nonlinear measures of fundamental frequency variation
+spread1 - discrete probability distribution of occurrence of relative semitone variations
+spread2 - Three nonlinear measures of fundamental frequency variation
+PPE - Entropy of the discrete probability distribution of occurrence of relative semitone variations
 
 ![image](https://github.com/user-attachments/assets/99a30f3e-2bea-430a-9904-56779040c2b9)
 
@@ -75,3 +75,13 @@ Confusion matrix, without normalization
 Machine learning interpretability refers to the ability to understand and explain how a machine learning model arrives at its predictions or decisions.
 
 ![image](https://github.com/user-attachments/assets/da1691ae-74d1-4965-85ab-f01904e65702)
+
+**Plot Important Features**
+![image](https://github.com/user-attachments/assets/0eeb2a29-368f-4c0f-9b2b-04751c00def7)
+
+**Visualizing the Decision Trees**
+using the dtreeviz library, we are able to visualize the decision tree. This can contribute to better the understanding of the role of our variables in identifying Parkinson.
+<img width="895" alt="Screenshot 2025-03-10 at 4 04 11 PM" src="https://github.com/user-attachments/assets/0f3614e2-8d44-4518-be60-6953ce73a6a6" />
+
+**Visualizing the path for random point**
+<img width="561" alt="Screenshot 2025-03-10 at 4 05 34 PM" src="https://github.com/user-attachments/assets/cba63d0a-fe92-4f1a-b198-4f587deae2a2" />
