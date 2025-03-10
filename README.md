@@ -38,10 +38,12 @@ PPE - Entropy of the discrete probability distribution of occurrence of relative
 ![image](https://github.com/user-attachments/assets/99a30f3e-2bea-430a-9904-56779040c2b9)
 
 t-SNE (t-Distributed Stochastic Neighbor Embedding) is a machine learning technique used for dimensionality reduction and visualization of high-dimensional datasets. It is particularly useful for visualizing complex data structures, as it helps to project the data points from a high-dimensional space to a lower-dimensional space (usually 2D or 3D) while preserving the relationships between the data points as much as possible.
+
 ![image](https://github.com/user-attachments/assets/66e1f713-00ac-4f80-9de8-b480d3a6c657)
 
 **k-Nearest Neighbors (k-NN)**
 In k-NN, the basic idea is to predict the label of a new instance based on the labels of its k nearest neighbors in the training data.
+
 ![image](https://github.com/user-attachments/assets/433bd6ca-a9aa-4ed1-b49c-b44c40d45304)
 
 Classification Report:
@@ -77,11 +79,14 @@ Machine learning interpretability refers to the ability to understand and explai
 ![image](https://github.com/user-attachments/assets/da1691ae-74d1-4965-85ab-f01904e65702)
 
 **Plot Important Features**
+
 ![image](https://github.com/user-attachments/assets/0eeb2a29-368f-4c0f-9b2b-04751c00def7)
 
 **Visualizing the Decision Trees**
+
 using the dtreeviz library, we are able to visualize the decision tree. This can contribute to better the understanding of the role of our variables in identifying Parkinson.
 <img width="895" alt="Screenshot 2025-03-10 at 4 04 11 PM" src="https://github.com/user-attachments/assets/0f3614e2-8d44-4518-be60-6953ce73a6a6" />
 
 **Visualizing the path for random point**
+
 <img width="561" alt="Screenshot 2025-03-10 at 4 05 34 PM" src="https://github.com/user-attachments/assets/cba63d0a-fe92-4f1a-b198-4f587deae2a2" />
